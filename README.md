@@ -11,7 +11,7 @@ TyC Sports, and more.
 **Load in a player:**
 
 ```
-https://raw.githubusercontent.com/VNN2020/iptv-playlists/main/football-soccer.m3u
+https://vnn2020.github.io/iptv-playlists/football-soccer.m3u
 ```
 
 **In IPTV Smarters Pro:** LOAD YOUR PLAYLIST OR FILE/URL → name it →
@@ -25,3 +25,10 @@ verified live before inclusion.
 
 These are free, publicly-available streams. Availability changes without notice
 and some sources may be unofficial re-streams. No warranty is given.
+
+## Which URL to use
+
+Use the **GitHub Pages** URL above. The raw.githubusercontent.com URL serves the
+file as `text/plain`, which some players (including IPTV Smarters Pro) reject
+with "File/URL is Not valid". GitHub Pages serves it as `audio/x-mpegurl`,
+which those players accept.
